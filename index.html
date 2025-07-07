@@ -5,7 +5,23 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Save the Planet!</h1>
+            <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="#why">Why Care?</a></li>
+                <li><a href="#tips">How To Help</a></li>
+                <li><a href="#tipoftheday">Tip Of the day</a></li>
+                <li><a href="#share">Share Story</a></li>
+                <li><a href="#leaderboard">Leaderboard</a></li>
+                </ul>
+                </nav>
+     <header >
+             <div id="header"> 
+                <h1>Welcome to Sisters for planet</h1>
+             </div>
+     </header>
+          <h1>Save the Planet!</h1>
         <p>Choose a cause and click"Donate" to show your support!</p>
         <div class="cause" id="trees">
             <h2>Plant trees</h2>
@@ -21,48 +37,49 @@
         </div>
         <div id="message"></div>
         <script src="script.js"></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <section class="nav">
-            <nav id="nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contactus.html">Contact</a></li>
-                <li><a href="donatenow.html">Donate now</a></li>
-
-            </nav>
-
+  
+        <section id="why">
+            <h2>Why Should We Care?</h2>
+            <p>THe Earth is our only home!</p>
+            <p>Pollution,deforestation and climate change are harming animals,nature and even us.We need to act now!</p>
         </section>
-        <section class="header">
-            <header >
-<div id="header"> 
-<h1>Welcome to Sisters for planet</h1>
-</div>
-            </header>
-
+        <section id="tips">
+            <h2>Easy ways to help</h2>
+            <ul> 
+                <li>Ride a bike or walk instead of driving.</li>
+                <li>Recycle paper,plactic and cans.</li>
+                <li>Turn off lights when not in use.</li>
+                <li>Plant a tree!</li>
+                <li>Don't waste water</li>
+            </ul>
         </section>
+        <section id="tipoftheday">
+            <h2>Tip of Day</h2>
+            <button onclick="showTip()">Get a Tip</button>
+            <p id="dailyTip"></p>
+        </section>
+        <section id="share">
+            <h2>Share Your Story!</h2>
+            <form id="storyForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <br/>
+                <textarea id="story" placeholder="YourStory" required></textarea><br/>
+                <input type="file" id="photo" accept="image/*" required/><br/>
+                <img id="photoPreview" src="" alt="Image preview.." style="display: none; max-width: 200p; margin-top: 10px;"><br/>
+                <button type="submit">Submit Story</button>
+            </form>
+            <div id="awardMessage"></div>
+            <h3>Shared Stories</h3>
+            <div id="stories"></div>
+        </section>
+        <section id="leaderboard">
+            <h2>Top Eco Heroes</h2>
+            <ul id="leaderboardList"></ul>
+        </section>
+        <footer>
+            <p>Made by Randy copright&2025|2025
+            </p>
+        </footer>
+        <script src="js.js"></script>
     </body>
 </html>

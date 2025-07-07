@@ -10,9 +10,10 @@ li a{
 }
 
 header{
-    background: url('https://drive.google.com/drive/u/0/home');
-    background-size: cover;
-    height: 500px;
+    background-color: #66bb6a;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 body{
     font-family: 'Comic Sans MS',cursive;
@@ -20,6 +21,7 @@ body{
     background: #eafbea;
     color: #2f4f4f;
     padding: 20px;
+    margin: 0;
 }
 h1{
     color: #228B22;
@@ -51,3 +53,89 @@ button:hover{
     font-size: 1.2em;
     color: #006400;
 }
+nav ul{
+    background-color: #388e3c;
+    padding: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    padding: 20px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ ul{
+    list-style: none;
+    padding: 0;
+ }
+ li{
+    background-color:#c8e6c9 ;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+ button:hover{
+    background-color: #388e3c;
+ }
+ form{
+    background: f0f4c3;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+ }
+ form input,form textarea{
+    width: 95%;
+    margin: 8px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ .story-card{
+    border: 1px solid #aed581;
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #e8f5e9;
+ }
+ .story-card img{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+ }
+ #awardMessage{
+    font-size: 18px;
+    color: green;
+    margin-top: 10px;
+    font-weight: bold;
+ }
+ footer{
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+ }
+ 
