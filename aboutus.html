@@ -3,26 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About us</title>
+    <title>About us- Eco Sisters</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <section class="nav">
-        <nav id="About">
-       <li><a href="index.html">Home</a></li>
+<body onload="showTip()">
+    <div class="container">
+        <div class="tip-box">
+            <strong>Eco tips</strong>
+            <span id="dailyTip"></span>
+        </div>
+    <nav>
+                <ul>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="aboutus.html">About us</a></li>
                 <li><a href="#why">Why Care?</a></li>
                 <li><a href="#tips">How To Help</a></li>
                 <li><a href="#tipoftheday">Tip Of the day</a></li>
                 <li><a href="#share">Share Story</a></li>
                 <li><a href="#leaderboard">Leaderboard</a></li>
-
-    <section id="why">
-            <h2>What is Sisters for planet</h2>
-            <p>Sisters for Planet is a non-profitable organisation where we fundrise money to</p>
-            <p>Pollution,deforestation and climate change are harming animals,nature and even us.We need to act now!</p>
+                </ul>
+    </nav>
+        <h1>About Sisters for Planet</h1>
+         <p>Sisters for Planet is a non-profitable organisation where we fundrise money to make a better Tomorrow</p>
+        <p>Hello</p>
+        
+    <section id="About">
+            <h2>About Eco Heroes</h2>
+            <p>Eco Heroes is a fun place where kids cna help save the planet<br/>Here,you cna share your eco stories,like how you plant trees or recycle.</p>
+        <p>When you shsre a story,you get points.The more you share,the more you climb the leaderboard.You can even earn awards like the Eco Hero Award!.</p>
+        <h2>Why We Do This</h2>
+        <p>We want to make the Earth cleaner,happier place.</p>
+        <p>Every Small Action Helps.</p><br/>
+        <p>If we all do our parts,we can make a big Difference!</p>
+        <h2>What You Can Do Here</h2>
+        <ul>
+            <li>Share your eco story</li>
+            <li>Add a photo</li>
+            <li>Get rewards</li>
+            <li>See the top helpers on the leaderboard</li>
+        </ul>
+        <p>Ready to be an Eco Hero? <a href="index.html">Go back and share a story</a></p>
+    </div>
         </section>
         <section id="tips">
-            <h2>Easy ways to help</h2>
+            <h2></h2>
             <ul> 
                 <li>Ride a bike or walk instead of driving.</li>
                 <li>Recycle paper,plactic and cans.</li>
@@ -31,6 +55,22 @@
                 <li>Don't waste water</li>
             </ul>
         </section>
-    
+        <script>
+            const tips=[
+                "Bring a bottle you can use again.",
+                "Use both sides of your paper.",
+                "Unplug your charger when done",
+                "Join an eco club at school!",
+                "Turn off Water when brushing teeth"
+            ];
+
+            function showTip(){
+                let tip=
+                tips[Math.floor(Math.random()*
+            tips.length)];
+
+            document.getElementById("dailyTip").textContent=tip;
+            }
+        </script>
 </body>
 </html>

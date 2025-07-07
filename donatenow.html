@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Donate now</title>
+    <title>Donate -Eco Heroes</title>
 </head>
 <body>
     <section class="nav">
@@ -15,18 +15,44 @@
                 <li><a href="#tipoftheday">Tip Of the day</a></li>
                 <li><a href="#share">Share Story</a></li>
                 <li><a href="#leaderboard">Leaderboard</a></li>
+                <li><a href="#donatenow.html">Donate Now</a></li>
         </nav>
     </section>
-    <section class="header">
-        <div id="header">
-            <h1>Donate now to make a greener,cleaner world</h1>
+    <div class="container">
+        <h1>Donate to Help the plant.</h1>
+        <p>Your dontation helps us plant trees in schools and communities,clean up the Earth and teach more kids to care.</p>
+        <div class="donate-box">
+            <h2>Make a Donation</h2>
+            <input type="text" id="donorName" placeholder="Your Name"/><br/>
+            <input type="number" id="amount" placeholder="Amount in Kes/USD"><br/>
+            <button onclick="makeDonation()">Donate</button>
+            <div id="thankYou"></div>
         </div>
-    </section>
- <main>
+        <a href="index.html">Back to Home</a>
+    </div>
+    <script>
+        function makeDonation(){
+            let name=
+            document.getElementById("donorName")
+            .value.trim();
+            let amount=
+            document.getElementById("amount")
+            .value.trim();
 
- </main>   
- <section class="footer">
-    
- </section>
+            if(name===""||amount==""){
+                alert("Please enter your name and how much you want to give");
+                return;
+            }
+            document.getElementById("thankYou").textContent
+            "Thank you,"+ name + "! Your donation of KES/USD" + amount + "means a lot!";
+            //Clear the form
+
+            document.getElementById("donorName")
+            .value="";
+            
+            document.getElementById("amount")
+            .value="";
+        }
+    </script>
 </body>
 </html>

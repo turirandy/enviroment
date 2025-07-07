@@ -13,3 +13,30 @@ li a{
     height: 500px; 
     background-size: cover;
 }
+body{
+    font-family: Arial,sans-serif;
+    background-color: #e6ffe6;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+h1,h2{
+    color: green;
+}
+.tip-box{
+    background-color: #d0ffd0;
+    padding:10px;
+    border-left: 5px solid green;
+    margin-bottom:20px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    text-decoration: underline;
+}
