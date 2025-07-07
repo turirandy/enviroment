@@ -1,0 +1,15 @@
+.nav{
+    background-color: #42c53a;
+}
+#nav{
+    display: flex;
+}
+li a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background: url();
+    height: 200px;
+    background-size: cover;
+}
