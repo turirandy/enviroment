@@ -4,55 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate -Eco Heroes</title>
+    <link rel="stylesheet" href="donatenow.css">
+    <
 </head>
 <body>
-    <section class="nav">
-        <nav id="Nav"> 
-          <li><a href="index.html">Home</a></li>
-                <li><a href="aboutus.html">About us</a></li>
-                <li><a href="#why">Why Care?</a></li>
-                <li><a href="#tips">How To Help</a></li>
-                <li><a href="#tipoftheday">Tip Of the day</a></li>
-                <li><a href="#share">Share Story</a></li>
-                <li><a href="#leaderboard">Leaderboard</a></li>
-                <li><a href="#donatenow.html">Donate Now</a></li>
-        </nav>
-    </section>
-    <div class="container">
-        <h1>Donate to Help the plant.</h1>
-        <p>Your dontation helps us plant trees in schools and communities,clean up the Earth and teach more kids to care.</p>
-        <div class="donate-box">
-            <h2>Make a Donation</h2>
-            <input type="text" id="donorName" placeholder="Your Name"/><br/>
-            <input type="number" id="amount" placeholder="Amount in Kes/USD"><br/>
-            <button onclick="makeDonation()">Donate</button>
-            <div id="thankYou"></div>
-        </div>
-        <a href="index.html">Back to Home</a>
+          
+    
+  <div class="container">
+    <h1>Donate to Help the Planet </h1>
+    <p>
+      Your donation helps us plant trees, clean up the Earth, and teach more kids to care. 
+    </p>
+
+    <div class="donate-box">
+      <h2>Make a Donation</h2>
+      <input type="text" id="donorName" placeholder="Your Name" /><br />
+      <input type="number" id="amount" placeholder="Amount in KES" /><br />
+      <button onclick="makeDonation()">Donate</button>
+
+      <div id="thankYou"></div>
     </div>
-    <script>
-        function makeDonation(){
-            let name=
-            document.getElementById("donorName")
-            .value.trim();
-            let amount=
-            document.getElementById("amount")
-            .value.trim();
 
-            if(name===""||amount==""){
-                alert("Please enter your name and how much you want to give");
-                return;
-            }
-            document.getElementById("thankYou").textContent
-            "Thank you,"+ name + "! Your donation of KES/USD" + amount + "means a lot!";
-            //Clear the form
+    <a href="index.html">← Back to Home</a>
+  </div>
+      <script>
+    function makeDonation() {
+      let name = document.getElementById("donorName").value.trim();
+      let amount = document.getElementById("amount").value.trim();
 
-            document.getElementById("donorName")
-            .value="";
-            
-            document.getElementById("amount")
-            .value="";
-        }
-    </script>
+      if (name === "" || amount === "") {
+        alert("Please enter your name and how much you want to give.");
+        return;
+      }
+
+      document.getElementById("thankYou").textContent =
+        " Thank you, " + name + "! Your donation of KES " + amount + " means a lot!";
+      
+      // Clear the form
+      document.getElementById("donorName").value = "";
+      document.getElementById("amount").value = "";
+    }
+  </script>
 </body>
 </html>
