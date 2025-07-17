@@ -1,9 +1,10 @@
 # SISTERS FOR PLANET
 
-Welcome to **SISTERS FOR PLANET** - a passionate,collaborative movement dedicated to protecting and saving our Earth and empowering communities to live sustainably.
+Welcome to **SISTERS FOR PLANET** - a passionate,collaborative movement dedicated to protecting and saving our Earth and empowering communities to live sustainably.Sisters for Planet is a non-profitable organization that aims to make Communities and Schools Green and Cleaner.
 
 # Our Mission 
 We belive the planet needs our collective voice and its starts with us.Our mission is to actively contribute to the protection and rehabilitation of the environment through tree planting,waste management efforts and educalional outreach programs.
+WE GO CLEANER AND GREENER
 
 # Objectives
 -Afforestation and Reforestation
@@ -16,7 +17,12 @@ We belive the planet needs our collective voice and its starts with us.Our missi
 # How I made it
 I thought of a topic that the whole world needs to know at first I thought of turning plactic into reusable-paper then I was like how I the would would I do that.
 My mum works with kids and the enviroment then I thought of a website that helps kid and adult 'but mostly kids' and thought of Sisters for Plant 'it is an instagram account about people donating money to grow trees in schools'.  
-I then started coding a website that
+I then started coding a website that could help in collecting donations to plant tress in communities and schools.
+
+# Languages used
+-I used HTML to act us building blocks in my website.
+-I used CSS to style my HTML and make it decorative and colorful.
+-I used JSS to make the website funtional mostly in the donation section.JSS enables a donor to donate money and share their achievments.
 
 # Impact
 By mobilizing local and global support, Sister for Planet has initiated projects that enhance air quality,support wildlife habitats and empower communities to take ownership of their ecological footprint.With your help we as a community can change the Earth with the small things we do.
