@@ -15,8 +15,8 @@ We belive the planet needs our collective voice and its starts with us.Our missi
 
 # How I made it
 I thought of a topic that the whole world needs to know at first I thought of turning plactic into reusable-paper then I was like how I the would would I do that.
-My mum work with kids and the enviroment then I thought of a website that helps kid and adult _but mostly kids_and thought of Sisters for Plant as a name for my web   
-
+My mum works with kids and the enviroment then I thought of a website that helps kid and adult 'but mostly kids' and thought of Sisters for Plant 'it is an instagram account about people donating money to grow trees in schools'.  
+I then started coding a website that
 
 # Impact
 By mobilizing local and global support, Sister for Planet has initiated projects that enhance air quality,support wildlife habitats and empower communities to take ownership of their ecological footprint.With your help we as a community can change the Earth with the small things we do.
