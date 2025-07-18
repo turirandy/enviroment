@@ -10,16 +10,16 @@ WE GO CLEANER AND GREENER
 ## Objectives
 - Afforestation and Reforestation
 
-      Planting trees in areas affected by deforastation to promote biodiversity,restore ecological balance and mitigate climate 
-      change.PLus we are making the world greener and more oxygen for us.
+    -Planting trees in areas affected by deforastation to promote biodiversity,restore ecological balance and mitigate climate 
+     change.PLus we are making the world greener and more oxygen for us.
 
 - Enviromental Clean-up Campaigns
-  
-      Organizing regular community clean-up drives to remove litter and contaminants from public spaces and natural ecosystems.
+
+     -Organizing regular community clean-up drives to remove litter and contaminants from public spaces and natural ecosystems.
 
 - Awareness and Education
 
-      Conducting workshops school programs and public seminars aimed at fostering environmental consciousness and sustainable 
+     -Conducting workshops school programs and public seminars aimed at fostering environmental consciousness and sustainable 
       practices.Teaching children about saving the Earth when they are younger makes a big impact.They will adapt into the eco-friendly 
       system quicker and easier which changes the world alot.
 
