@@ -69,7 +69,7 @@ form.addEventListener("submit", function (e) {
     scores[name]++;
     localStorage.setItem("scores", JSON.stringify(scores));
 
-    message.innerHTML = "🏅 You got an Eco Hero Award!";
+    message.innerHTML = " You got an Eco Hero Award!";
     form.reset();
     photoShow.style.display = "none";
     showStories();
@@ -86,10 +86,10 @@ function showStories() {
     let box = document.createElement("div");
     box.className = "story-card";
     box.innerHTML = `
-      <h3>🌱 ${s.name}</h3>
+      <h3>${s.name}</h3>
       <p>${s.text}</p>
       <img src="${s.image}" alt="photo" />
-      <small>🕒 ${new Date(s.time).toLocaleString()}</small>
+      <small>${new Date(s.time).toLocaleString()}</small>
     `;
     storyPlace.appendChild(box);
   });
