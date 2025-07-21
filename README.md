@@ -35,4 +35,8 @@ By mobilizing local and global support, Sister for Planet has initiated projects
 # Commitment to Transparency
 Sisters for Planet maintains full transparency regarding the allocation of funds and project implementation.We believe in accountability,inclusivity and measurable impact.
 
+
+<img scr="https://www.loom.com/share/3ebd6d4b8b3d4d929857db4eb6594eaf" alt="Enjoy">
+
+
 ### TOGETHER,WE CAN BUILD A SUSTAINABLE FUTURE-ONE TREE,ONE CLEAN STREET AND ONE INFORMED MIND AT A TIME
